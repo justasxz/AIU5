@@ -47,20 +47,20 @@
 # print(s.std())
 
 
-import pandas as pd
-# create series with random values and some NaN values with at least 20 values
-import numpy as np
-# data = [50, 60, 70, 80, 90, np.nan, 110, 120, 130, 140, np.nan, 160, 170, 180, 190, np.nan, 210, 220, 230, 240, np.nan]
-# s = pd.Series(data, index=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u'])
-# print(s)
-# print(s.isna())  # grazina True, jei yra NaN reiksme
+# import pandas as pd
+# # create series with random values and some NaN values with at least 20 values
+# import numpy as np
+# # data = [50, 60, 70, 80, 90, np.nan, 110, 120, 130, 140, np.nan, 160, 170, 180, 190, np.nan, 210, 220, 230, 240, np.nan]
+# # s = pd.Series(data, index=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u'])
+# # print(s)
+# # print(s.isna())  # grazina True, jei yra NaN reiksme
 
-# print(s.isna().sum())  # grazina kiek yra NaN reiksmiu
-# # print(s.dropna()) # grazina serija be NaN reiksmiu
-# print(s.fillna(s.mean()))  # pakeicia NaN reiksmes i 100
-# series string operations
-s = pd.Series(['apple', 'banana', 'fig', 'date', 'elderberry', 'fig', 'grape'])
-# print(s)
+# # print(s.isna().sum())  # grazina kiek yra NaN reiksmiu
+# # # print(s.dropna()) # grazina serija be NaN reiksmiu
+# # print(s.fillna(s.mean()))  # pakeicia NaN reiksmes i 100
+# # series string operations
+# s = pd.Series(['apple', 'banana', 'fig', 'date', 'elderberry', 'fig', 'grape'])
+# # print(s)
 # # print(s.str.upper())  # grazina serija su visomis reiksmeis didziosiomis raidemis
 # # print(s.str.contains('a'))  # grazina serija su True, jei reiksmeje yra 'a'
 # print(s.value_counts())  # grazina serija su reiksmeis ir ju kiekiais
@@ -80,8 +80,8 @@ s = pd.Series(['apple', 'banana', 'fig', 'date', 'elderberry', 'fig', 'grape'])
 # s = s.map({'apple': 'red', 'banana': 'yellow', 'fig': 'purple', 'date': 'brown', 'elderberry': 'black', 'grape': 'green'})
 # print(s)  # pakeicia reiksmes pagal zodyna
 
-s.sort_values(inplace=True)  # surikiuoja serija pagal reiksmes
-print(s)  # atspausdina surikiuota serija
+# s.sort_values(inplace=True)  # surikiuoja serija pagal reiksmes
+# print(s)  # atspausdina surikiuota serija
 
 
 # s.sort_index(inplace=True)  # surikiuoja serija pagal indeksus
